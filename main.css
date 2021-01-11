@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-style: inherit;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: floralwhite;
+}
+.arrow {
+  height: 20px;
+  width: 20px;
+  transform: translateY(-50%) rotate(45deg);
+  background: #5e5b58;
+}
+
+.arrow2 {
+  height: 20px;
+  width: 20px;
+  transform: translateY(-50%) rotate(45deg);
+  background: #24706a;
+}
+
+.arrow3 {
+  height: 20px;
+  width: 20px;
+  transform: translateY(-50%) rotate(45deg);
+  background: #0091bb;
+}
+
+.arrow4 {
+  height: 20px;
+  width: 20px;
+  transform: translateY(-50%) rotate(45deg);
+  background: #e2536b;
+}
+
+.arr {
+  height: 20px;
+  width: 20px;
+  background-color: #eee8e8;
+  transform: translatey(50%) rotate(45deg);
+}
+
+.black {
+  width: 100%;
+  background-color: #eee8e8;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  overflow: hidden;
+  width: 400px;
+  height: 600px;
+  border-radius: 16px;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+}
+
+.top {
+  height: 8%;
+  width: 100%;
+  background: #5e5b58;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  font-size: 1.25rem;
+  background: #eee8e8;
+  padding-top: 1rem;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center hr {
+  width: 80%;
+  height: 1px;
+  color: #ccc;
+}
+
+.center h4 {
+  margin: 10px auto;
+  color: rgb(104, 99, 99);
+  font-weight: normal;
+}
+
+.bottom {
+  color: white;
+  width: 100%;
+  height: 42%;
+  background: #7e7164;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bottom h1 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.bottom h1 span {
+  margin-top: auto;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.bottom h3 {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 1.25rem;
+}
+
+.bottom h4 {
+  text-align: center;
+  padding: 8px;
+  font-weight: normal;
+  width: 100%;
+  font-size: 1rem;
+  background: #5e5b58;
+}
+
+.topp {
+  height: 8%;
+  width: 100%;
+  background: #24706a;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom1 {
+  color: white;
+  width: 100%;
+  height: 42%;
+  background: #3bada4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bottom1 h1 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.bottom1 h1 span {
+  margin-top: auto;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.bottom1 h3 {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 1.25rem;
+}
+
+.bottom1 h4 {
+  text-align: center;
+  padding: 8px;
+  font-weight: normal;
+  width: 100%;
+  font-size: 1rem;
+  background: #24706a;
+}
+
+.toppp {
+  height: 8%;
+  width: 100%;
+  background: #0091bb;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top1 {
+  height: 8%;
+  width: 100%;
+  background: #e2536b;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom2 {
+  color: white;
+  width: 100%;
+  height: 42%;
+  background: #90ccdd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bottom2 h1 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.bottom2 h1 span {
+  margin-top: auto;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.bottom2 h3 {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 1.25rem;
+}
+
+.bottom2 h4 {
+  text-align: center;
+  padding: 8px;
+  font-weight: normal;
+  width: 100%;
+  font-size: 1rem;
+  background: #0091bb;
+}
+
+.bottom3 {
+  color: white;
+  width: 100%;
+  height: 42%;
+  background: #e08998;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bottom3 h1 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.bottom3 h1 span {
+  margin-top: auto;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.bottom3 h3 {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 1.25rem;
+}
+
+.bottom3 h4 {
+  text-align: center;
+  padding: 8px;
+  font-weight: normal;
+  width: 100%;
+  font-size: 1rem;
+  background: #e2536b;
+}
